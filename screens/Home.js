@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <>
       <Search searchMovie={handleSearch} />
-      <ScrollView horizontal={true} style={styles.textColor}>
+      <ScrollView horizontal={true} style={styles.container}>
         {MoviesFilteration.map(movie => {
           return (
             <TouchableOpacity
@@ -80,14 +80,14 @@ const styles = StyleSheet.create({
     marginTop: 7,
     textAlign: 'center',
     marginLeft: 7,
-    marginBottom: 8,
+    marginBottom: 15,
     height: 40,
+    alignContent: 'center',
   },
   textColor: {
     color: 'black',
   },
-  buttonContainer: {
-    flexDirection: 'row',
-    padding: 5,
+  container: {
+    alignSelf: 'center',
   },
 });

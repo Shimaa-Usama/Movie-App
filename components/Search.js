@@ -45,5 +45,6 @@ const styles = StyleSheet.create({
     color: 'black',
     height: 45,
     margin: 5,
+    padding: 15,
   },
 });
