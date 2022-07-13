@@ -23,7 +23,7 @@
       @react-navigation/drawer
       axios
       TanStack Query 
-  TanStack Query : I can't install it from npm or yarn So,I download to the project as (tanstackreact-query.js)
+  TanStack Query : I can't install it from npm or yarn So,I download it to the project as (tanstackreact-query.js).
           
    ## The used api
       https://www.themoviedb.org/documentation/api
